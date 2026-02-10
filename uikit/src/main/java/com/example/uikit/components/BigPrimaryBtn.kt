@@ -1,0 +1,37 @@
+package com.example.uikit.components
+
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.width
+import androidx.compose.material3.Button
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+
+@Composable
+fun BigPrimaryBtn(
+    modifier: Modifier = Modifier,
+    text: String,
+    onClick: () -> Unit
+) {
+    Button(
+        onClick = onClick,
+        modifier = modifier
+            .width(335.dp)
+            .height(56.dp),
+    )
+    {
+        Text(
+            text = text
+        )
+    }
+    Color(0x1A6FEE)
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TestBigPrimaryBtn() {
+
+}

@@ -12,6 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.olimpiada.ui.theme.OlimpiadaTheme
+import com.example.uikit.components.BigPrimaryBtn
+import com.example.uikit.components.TestBigPrimaryBtn
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +26,12 @@ class MainActivity : ComponentActivity() {
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
+
+                    BigPrimaryBtn(
+                        text = "Подтвердить"
+                    ) {
+
+                    }
                 }
             }
         }

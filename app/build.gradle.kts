@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.olimpiada"
+    namespace = "com.example.storyBook"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.olimpiada"
+        applicationId = "com.example.storyBook"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -53,4 +53,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    implementation(project(":uikit"))
 }
