@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "Olimpiada"
 include(":app")
 include(":uikit")
+include(":server")
