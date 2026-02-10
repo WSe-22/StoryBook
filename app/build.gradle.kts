@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.storyBook"
+    namespace = "com.example.olimpiada"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.storyBook"
+        applicationId = "com.example.olimpiada"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
