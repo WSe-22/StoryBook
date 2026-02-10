@@ -6,7 +6,7 @@ import androidx.room.util.TableInfo
 
 // Описание модели user
 @Entity(tableName = "user")
-private data class User(
+data class User(
     @PrimaryKey(autoGenerate = true)
     var id: String,
     var lastname: String,
