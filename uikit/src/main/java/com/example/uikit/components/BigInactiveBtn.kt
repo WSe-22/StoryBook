@@ -12,7 +12,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun bigInactiveBtn(
+fun BigInactiveBtn(
     modifier: Modifier = Modifier,
     text: String,
     onClick: () -> Unit,
@@ -34,9 +34,9 @@ fun bigInactiveBtn(
 @Preview(showBackground = true)
 @Composable
 fun TestBigInactiveBtn() {
-    bigPrimaryBtn(
-        text = "Test",
+    BigInactiveBtn(
+        text = "test"
     ) {
-
+        
     }
 }

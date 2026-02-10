@@ -22,13 +22,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             OlimpiadaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-
                     BigPrimaryBtn(
-                        text = "Подтвердить"
+                        text = "Подтвердить",
+                        modifier = Modifier.padding(innerPadding)
                     ) {
 
                     }

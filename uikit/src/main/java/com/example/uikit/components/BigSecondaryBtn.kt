@@ -10,10 +10,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.uikit.bigPrimaryBtn
 
 @Composable
-fun bigSecondaryBtn(
+fun BigSecondaryBtn(
     modifier: Modifier = Modifier,
     text: String,
     onClick: () -> Unit
@@ -23,7 +22,6 @@ fun bigSecondaryBtn(
         modifier = modifier
             .width(335.dp)
             .height(56.dp)
-            .background(color = Color(bigPrimaryBtn))
         ,
     )
     {
