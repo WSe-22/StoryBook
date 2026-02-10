@@ -27,7 +27,6 @@ fun BigPrimaryBtn(
             text = text
         )
     }
-    Color(0x1A6FEE)
 }
 
 @Preview(showBackground = true)
