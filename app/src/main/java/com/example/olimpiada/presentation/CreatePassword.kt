@@ -38,8 +38,7 @@ class CreatePassword : ComponentActivity() {
         setContent {
             OlimpiadaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting2(
-                        name = "Android",
+                    CreatePasswordUser(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -49,15 +48,7 @@ class CreatePassword : ComponentActivity() {
 }
 
 @Composable
-fun Greeting2(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Composable
-fun CreatePasswordUser() {
+fun CreatePasswordUser(modifier: Modifier = Modifier) {
     Column(
         modifier = Modifier
             .padding(32.dp)

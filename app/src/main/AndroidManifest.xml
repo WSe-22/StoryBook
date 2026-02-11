@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Olimpiada">
         <activity
+            android:name=".presentation.CreateEichPassword"
+            android:exported="false"
+            android:label="@string/title_activity_create_eich_password"
+            android:theme="@style/Theme.Olimpiada" />
+        <activity
             android:name=".presentation.CreatePassword"
             android:exported="false"
             android:label="@string/title_activity_create_password"
@@ -20,11 +25,6 @@
             android:name=".presentation.CreateProfile"
             android:exported="false"
             android:label="@string/title_activity_create_profile"
-            android:theme="@style/Theme.Olimpiada" />
-        <activity
-            android:name=".presentation.SignInActivity"
-            android:exported="false"
-            android:label="@string/title_activity_sign_in"
             android:theme="@style/Theme.Olimpiada" />
         <activity
             android:name=".MainActivity"
