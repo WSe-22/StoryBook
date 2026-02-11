@@ -1,12 +1,10 @@
 package com.example.olimpiada
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -17,7 +15,6 @@ import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -42,13 +39,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withLink
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.olimpiada.presentation.CreateProfile
 import com.example.olimpiada.ui.theme.OlimpiadaTheme
-import com.example.uikit.components.BigPrimaryBtn
-import com.example.uikit.components.TestBigPrimaryBtn
-import com.example.uikit.components.inputs.InputName
-import com.example.uikit.components.inputs.InputNameError
-import com.example.uikit.components.selects.SelectPol
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -118,9 +109,9 @@ fun SignIn(modifier: Modifier = Modifier) {
             }
         )
 
+
         Button(
             onClick = {
-
             },
             modifier = Modifier
                 .align(Alignment.CenterHorizontally)
