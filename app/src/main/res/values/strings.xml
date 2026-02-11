@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Olimpiada</string>
     <string name="title_activity_selects">Selects</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_create_profile">CreateProfile</string>
+    <string name="title_activity_create_password">CreatePassword</string>
 </resources>
