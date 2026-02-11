@@ -2,19 +2,19 @@ package com.example.server.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import androidx.room.util.TableInfo
 
 // Описание модели user
-@Entity(tableName = "user")
 data class User(
-    @PrimaryKey(autoGenerate = true)
+    val collectionId: String,
+    val collectionName: String,
+    val created: String,
+    val emailVisibility: Boolean,
+    val firstname: String,
     var id: String,
     var lastname: String,
     var secondname: String,
+    val updated: String,
     var verified: Boolean,
     var datebirthday: String,
     var gender: String
 )
-
-// sql-подобные запросы (будут)
-val getUserId = "SELECT * FROM "
