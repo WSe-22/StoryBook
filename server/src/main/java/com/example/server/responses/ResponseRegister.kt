@@ -1,5 +1,8 @@
 package com.example.server.responses
 
+// Описание ответа ResponseRegister
+
+
 data class ResponseRegister(
     val collectionId: String,
     val collectionName: String,

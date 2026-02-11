@@ -1,5 +1,7 @@
 package com.example.server.models
 
+// Описание модели UsersAuth
+
 data class UsersAuth(
     val page: Int,
     val perPage: Int,

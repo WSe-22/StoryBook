@@ -1,9 +1,9 @@
 package com.example.server.requests
 
-// Описание запроса RequestOrder
+// Описание запроса RequestCart
 
-data class RequestOrder(
+data class RequestCart(
     val user_id: String,
     val product_id: String,
-    val count: Int,
+    val count: Int
 )
