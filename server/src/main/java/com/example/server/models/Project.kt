@@ -1,9 +1,8 @@
 package com.example.server.models
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
 
 // Описание модели Project
+
 data class Project(
     val id: String,
     val collectionId: String,

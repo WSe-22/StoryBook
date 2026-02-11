@@ -1,5 +1,7 @@
 package com.example.server.models
 
+// Описание модели UserAuth
+
 data class UserAuth(
     val id: String,
     val collectionId: String,

@@ -1,8 +1,8 @@
 package com.example.server.responses
 
-// Описание ответа ResponseCart
+// Описание ответа ResponseOrder
 
-data class ResponseCart(
+data class ResponseOrder(
     val id: String,
     val collectionId: String,
     val collectionName: String,
@@ -10,5 +10,5 @@ data class ResponseCart(
     val updated: String,
     val user_id: String,
     val product_id: String,
-    val count: Int,
+    val count: String
 )

@@ -1,8 +1,8 @@
 package com.example.server.requests
 
-// Описание запроса RequestOrder
+// Описание запроса ChangeBuckerInformation
 
-data class RequestOrder(
+data class ChangeBuckerInformation(
     val user_id: String,
     val product_id: String,
     val count: Int,

@@ -1,6 +1,7 @@
 package com.example.server
 
-import com.example.server.models.User
+import com.example.server.repositories.UserRepository
+import com.example.server.services.UserService
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -23,5 +24,6 @@ object ApiMatule {
         .build()
 
 //    var api: = retrofit.create<MyApi?>(::class.java)
+    var api = retrofit.create<UserService>(UserRepository::class.java as Class<UserService?>)
 
 }

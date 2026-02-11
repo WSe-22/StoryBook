@@ -1,9 +1,5 @@
 package com.example.server.models
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-import androidx.room.util.TableInfo
-
 // Описание модели News
 data class News(
     val collectionId: String,

@@ -1,11 +1,7 @@
 package com.example.server.models
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-import androidx.room.Query
-import androidx.room.Room
-
 // Описание модели Product
+
 data class Product(
     val id: String,
     val collectionId: String,
