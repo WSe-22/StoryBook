@@ -25,6 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.olimpiada.ui.theme.OlimpiadaTheme
 
+// Экран создания профиля
 class CreateProfile : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +45,7 @@ class CreateProfile : ComponentActivity() {
     }
 }
 
+// Composable функция отображния создания профиля (тектс)
 @Composable
 fun CreateProfileUser(modifier: Modifier = Modifier) {
     Column(
@@ -66,6 +68,7 @@ fun CreateProfileUser(modifier: Modifier = Modifier) {
     }
 }
 
+// Composable функция отображения элементов ввода профиля
 @Composable
 fun SelectsButtons(modifier: Modifier = Modifier) {
     Column(
