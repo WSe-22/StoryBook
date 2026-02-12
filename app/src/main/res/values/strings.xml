@@ -5,4 +5,8 @@
     <string name="title_activity_create_profile">CreateProfile</string>
     <string name="title_activity_create_password">CreatePassword</string>
     <string name="title_activity_create_eich_password">CreateEichPassword</string>
+    <string name="title_activity_glavnya">Glavnya</string>
+    <string name="title_activity_catalog">Catalog</string>
+    <string name="title_activity_projects">Projects</string>
+    <string name="title_activity_create_project">CreateProject</string>
 </resources>
