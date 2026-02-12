@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.olimpiada.ui.theme.OlimpiadaTheme
 
+// Экран создания пароля (цифровой)
 class CreateEichPassword : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,8 +29,7 @@ class CreateEichPassword : ComponentActivity() {
         setContent {
             OlimpiadaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    CreateEichPasswordUser(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -38,14 +38,7 @@ class CreateEichPassword : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
+// Composable функция отображения создания пароля
 @Composable
 fun CreateEichPasswordUser(modifier: Modifier = Modifier) {
     Column(

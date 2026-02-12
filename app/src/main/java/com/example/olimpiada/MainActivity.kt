@@ -41,6 +41,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withLink
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat.startActivity
 import com.example.olimpiada.presentation.CreateProfile
 import com.example.olimpiada.ui.theme.OlimpiadaTheme
 
@@ -112,10 +113,8 @@ fun SignIn(modifier: Modifier = Modifier) {
             }
         )
 
-
         Button(
             onClick = {
-                
             },
             modifier = Modifier
                 .align(Alignment.CenterHorizontally)

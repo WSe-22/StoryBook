@@ -32,7 +32,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.olimpiada.ui.theme.OlimpiadaTheme
 
-// Экран каталога
+// Экран экрана каталога
 class Catalog : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

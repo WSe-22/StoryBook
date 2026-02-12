@@ -30,6 +30,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.olimpiada.ui.theme.OlimpiadaTheme
 
+// Экран создания пароля (обычный)
 class CreatePassword : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,6 +47,7 @@ class CreatePassword : ComponentActivity() {
     }
 }
 
+// Composable функция для отображения создания пароля
 @Composable
 fun CreatePasswordUser(modifier: Modifier = Modifier) {
     Column(
