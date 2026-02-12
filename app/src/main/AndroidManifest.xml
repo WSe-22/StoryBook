@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Olimpiada">
         <activity
+            android:name=".presentation.Catalog"
+            android:exported="false"
+            android:label="@string/title_activity_catalog"
+            android:theme="@style/Theme.Olimpiada" />
+        <activity
+            android:name=".presentation.Glavnya"
+            android:exported="false"
+            android:label="@string/title_activity_glavnya"
+            android:theme="@style/Theme.Olimpiada" />
+        <activity
             android:name=".presentation.CreateEichPassword"
             android:exported="false"
             android:label="@string/title_activity_create_eich_password"
